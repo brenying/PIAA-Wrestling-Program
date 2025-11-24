@@ -1,14 +1,19 @@
-# 🔐 Encryption Program (Java)
+# 🤼 Wrestling Program (Java)
 
 ## 📌 Overview
-This project contains a simple Java-based encryption skeleton that uses `Scanner` input and sets up variables for encoding, decoding, and hexadecimal transformation.  
-It serves as a starter template for building more advanced encryption or text-processing functions.
+This project implements a wrestling data manager that allows users to enter wrestler information, validate it, store it, and display formatted output such as rankings, match cards, or statistics.  
+The program is designed as a clean template that can be expanded into a full wrestling tournament manager or scoring system.
 
 ## 🧠 Features
-- Accepts user input via Java's `Scanner`
-- Predefined variables for:
-  - Raw text input
-  - Encoded/decoded output
-  - Numeric/string manipulation
-  - Hexadecimal processing
-- Fully expandable code structure for custom encryption logic
+- Input handling using `Scanner`
+- Support for wrestler attributes (name, weight class, record, etc.)
+- Validation for numeric and string inputs
+- Ability to store wrestlers in lists or arrays
+- Formatted output for:
+  - Rankings
+  - Matchups
+  - Full roster display
+- Expandable logic for:
+  - Scheduling matches
+  - Calculating stats
+  - Weight-class sorting
